@@ -2,11 +2,11 @@
 (function() {
   var Emitter, dom, elementsOverlap;
 
-  Emitter = require("emitter");
+  Emitter = require('component-emitter');
 
-  elementsOverlap = require("elements-overlap");
+  elementsOverlap = require('shaunxcode-elements-overlap');
 
-  dom = require("dom");
+  dom = require('component-dom');
 
   module.exports = function(surface, selectable, selectedClass) {
     var drawingBox, emitter, selected, startX, startY, surfaceElement;

@@ -1,0 +1,17 @@
+{
+  "name": "shaunxcode-marquee",
+  "description": "marquee sleection tool",
+  "version": "0.0.2",
+  "keywords": [
+    "tools",
+    "interaction"
+  ],
+  "styles": [
+    "style.css"
+  ],
+  "dependencies": {
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-dom": "git://github.com/npmcomponent/component-dom.git",
+    "shaunxcode-elements-overlap": "git://github.com/npmcomponent/shaunxcode-elements-overlap.git"
+  }
+}
